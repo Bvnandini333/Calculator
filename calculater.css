@@ -1,0 +1,69 @@
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    background-color:antiquewhite;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form h1{
+    text-align: center;
+    color: navy;
+    font-size: 45px;
+
+}
+
+.cal{
+    background-color:gray ;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.cal form input{
+    border : 0px;
+    outline: 0;
+    width:60px;
+    height:60px;
+    border-radius:10px;
+    font-size: 20px;
+    cursor:pointer;
+    margin:10px;
+}
+
+.cal form input:hover{
+    background:goldenrod;
+    color:white;
+}
+
+form .display{
+    display:flex;
+    justify-content: flex-end;
+    margin: 20px 0px;
+}
+
+form .display input{
+    text-align: right;
+    flex:1;
+    font-size: 40px;
+}
+form input.equal {
+    width:145px;
+}
+
+form input.operator {
+    color:red;
+}
+
+form input.operatorequal {
+ background:greenyellow;
+
+}
+
+
+
